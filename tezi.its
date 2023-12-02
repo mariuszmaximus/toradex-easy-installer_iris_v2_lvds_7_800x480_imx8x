@@ -1,0 +1,55 @@
+/dts-v1/;
+ 
+/ {
+    description = "U-Boot fitImage for Toradex Easy Installer";
+    #address-cells = <1>;
+ 
+    images {
+        kernel@0 {
+            description = "Linux Kernel";
+            data = /incbin/("./zImage");
+            type = "kernel";
+            arch = "aarch64";
+            os = "linux";
+            compression = "none";
+            load = <0x96000000>;
+            entry = <0x96000000>;
+            hash@1 {
+                algo = "md5";
+            };
+        };
+        fdt@0 {
+            description = "Flattened Device Tree blob";
+            data = /incbin/("./system.dtb");
+            type = "flat_dt";
+            arch = "arm";
+            compression = "none";
+            hash@1 {
+                algo = "md5";
+            };
+        };
+        ramdisk@0 {
+            description = "Ramdisk Image";
+            data = /incbin/("./ramdisk");
+            type = "ramdisk";
+            arch = "arm";
+            os = "linux";
+            compression = "none";
+            hash@1 {
+                algo = "md5";
+            };
+        };
+    };
+    configurations {
+        default = "config@1";
+        config@1 {
+            description = "Boot Linux kernel with FDT blob + ramdisk";
+            kernel = "kernel@0";
+            fdt = "fdt@0";
+            ramdisk = "ramdisk@0";
+            hash@1 {
+                algo = "md5";
+            };
+        };
+    };
+};

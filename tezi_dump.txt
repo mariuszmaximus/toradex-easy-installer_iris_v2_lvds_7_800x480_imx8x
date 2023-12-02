@@ -1,0 +1,451 @@
+FIT description: U-Boot fitImage for Toradex Easy Installer/5.4.193+gitAUTOINC+61d265bd31/colibri-imx8x
+Created:         Sun Nov 26 19:28:52 2023
+ Image 0 (kernel-1)
+  Description:  Linux kernel
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Kernel Image
+  Compression:  gzip compressed
+  Data Size:    10804876 Bytes = 10551.64 KiB = 10.30 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: 0x96000000
+  Entry Point:  0x96000000
+  Hash algo:    sha256
+  Hash value:   9c9b6e7a0fce61ab3de52381b9423c54ef929237d9a2326ba7a0e254f489dc16
+ Image 1 (fdt-imx8dx-colibri-aster.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    125867 Bytes = 122.92 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   bdb11d6c50e739c91754d1361fe4cf489406eb62159a5010ff4b8de800f686bc
+ Image 2 (fdt-imx8dx-colibri-eval-v3.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    126514 Bytes = 123.55 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   b96914e25573b5819772887c65a346dcfe91c0edf76dde7bc5827f68f416b43c
+ Image 3 (fdt-imx8dx-colibri-iris.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    126653 Bytes = 123.68 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   aca494408ed269cc09f2d871754d7e76e7a565d928f2fd9abd052882c102ce90
+ Image 4 (fdt-imx8dx-colibri-iris-v2.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    127120 Bytes = 124.14 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   01065466309c40fd501542ef2e8d7c0dfba63c16a2acc7c536a9c1b3487759c1
+ Image 5 (fdt-imx8qxp-colibri-aster.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    126339 Bytes = 123.38 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   ef32bd895559149ee16c3c81a90d5d0e9af6c5320bc6ef570b21b9ee7f460ffc
+ Image 6 (fdt-imx8qxp-colibri-eval-v3.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    126986 Bytes = 124.01 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   3e17748efb6deb95ea37fba94399221798ad5817a6cf9fec2958639a312b07d8
+ Image 7 (fdt-imx8qxp-colibri-iris.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    127129 Bytes = 124.15 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   2f46152048731143012e637f94dce08c1478515c1530301e7ef6d05b7b497524
+ Image 8 (fdt-imx8qxp-colibri-iris-v2.dtb)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    127596 Bytes = 124.61 KiB = 0.12 MiB
+  Architecture: AArch64
+  Load Address: 0x87000000
+  Hash algo:    sha256
+  Hash value:   d9c79da3c7adf92346ec614b1f1402a7d18d898a2d404cc10a908bb19f580801
+ Image 9 (fdt-colibri-imx8x_ad7879_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    403 Bytes = 0.39 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   f736d6e527fe0fa7e311846032f2fadf8c36f1a32f1cd981d67362d9d3dcb006
+ Image 10 (fdt-colibri-imx8x_atmel-mxt-adapter_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    1065 Bytes = 1.04 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   e6d5e4dc6793b0ee8668d0379f731171faca078180636d175f2c087d55e01841
+ Image 11 (fdt-colibri-imx8x_atmel-mxt-connector_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    523 Bytes = 0.51 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   99c3b235916f4ed3df83497911fe3e0a41bdd4b4eadd6f2c69e3bc81892ceffe
+ Image 12 (fdt-colibri-imx8x_disable-cm40-uart_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    540 Bytes = 0.53 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   db4083a2381b0c92c77ac97df0f8cf9e97fa9da262370d59a7119341403d2487
+ Image 13 (fdt-colibri-imx8x_display-lcdif_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    1504 Bytes = 1.47 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   37f19a467ff3a3648592f731b53e7bf0191d07a3f20d2ce73afb0ae89951214a
+ Image 14 (fdt-colibri-imx8x_dsihdmi_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    910 Bytes = 0.89 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   4274e54dba9a1afe071a26f29fb709ed2ec7c1f15990b2871cfe032eb9f440d1
+ Image 15 (fdt-colibri-imx8x-eval_spidev_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    652 Bytes = 0.64 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   aad4c778feec1ef877952ec7e9d390a1515f2916288d15a9a2514f2313df67e2
+ Image 16 (fdt-colibri-imx8x_ov5640_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    2471 Bytes = 2.41 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   45e5ec3e93446bbf2d4735fa1924df77d5b0ff1717dda53d136b7bad0411a2c6
+ Image 17 (fdt-colibri-imx8x_parallel-rgb-lvds_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    2180 Bytes = 2.13 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   a32ce7d77971de44ea348875602c1bdfdc160495082971412175477d7ecac9fe
+ Image 18 (fdt-colibri-imx8x_parallel-rgb_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    1498 Bytes = 1.46 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   108f6cccc620acee9c6313d42e70e9737383f0afc2052feccdd2d78ebc942385
+ Image 19 (fdt-display-dpi-lt170410_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    820 Bytes = 0.80 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   da2af7ded868faa21cbfe500023ecfdcacac5f412cfdfa1f202814fe76abe7d0
+ Image 20 (fdt-display-edt5.7_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    831 Bytes = 0.81 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   dd01f8b5c48d0387c5c26366eced6297ba8c813f699b6d6d3aeca8662eaf4e3f
+ Image 21 (fdt-display-edt7_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    831 Bytes = 0.81 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   10bd482d128b93ff82e49e66f8815200e9a5c68b9299a501562fc15aa0c6a646
+ Image 22 (fdt-display-fullhd_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    839 Bytes = 0.82 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   29cdf5061104f24950cd189e9f3a04c4b720f017d7a07534d47137cbbe558bd4
+ Image 23 (fdt-display-lt161010_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    863 Bytes = 0.84 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   f9c171092a8e6daaf01ca41aa7eeb8bedd7774a2f7c509845e018fbf45880d48
+ Image 24 (fdt-display-lt170410_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    854 Bytes = 0.83 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   aeef5513df4c3021157c03b53ee984c48553390e6b027fea8fdd5bd058e99443
+ Image 25 (fdt-display-vga_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    831 Bytes = 0.81 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   383a27a99e2cba48fc87c9a87ccae92839967e703a57ebcc88b6e6de69eb6f56
+ Image 26 (fdt-touch-atmel-mxt_overlay.dtbo)
+  Description:  Flattened Device Tree blob
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         Flat Device Tree
+  Compression:  uncompressed
+  Data Size:    426 Bytes = 0.42 KiB = 0.00 MiB
+  Architecture: AArch64
+  Load Address: 0x870f0000
+  Hash algo:    sha256
+  Hash value:   b4de3fbe9248f00d0b56e23cbf8e497270b82d366591dcbbe2bf752f1f674129
+ Image 27 (ramdisk-1)
+  Description:  tezi-initramfs
+  Created:      Sun Nov 26 19:28:52 2023
+  Type:         RAMDisk Image
+  Compression:  uncompressed
+  Data Size:    35942400 Bytes = 35100.00 KiB = 34.28 MiB
+  Architecture: AArch64
+  OS:           Linux
+  Load Address: 0xa0000000
+  Entry Point:  unavailable
+  Hash algo:    sha256
+  Hash value:   5eac996193914093e60b2186023a7097ceaf2f67ec2b21f1b9299f1610820cea
+ Default Configuration: 'conf-imx8dx-colibri-aster.dtb'
+ Configuration 0 (conf-imx8dx-colibri-aster.dtb)
+  Description:  1 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8dx-colibri-aster.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 1 (conf-imx8dx-colibri-eval-v3.dtb)
+  Description:  0 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8dx-colibri-eval-v3.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 2 (conf-imx8dx-colibri-iris.dtb)
+  Description:  0 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8dx-colibri-iris.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 3 (conf-imx8dx-colibri-iris-v2.dtb)
+  Description:  0 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8dx-colibri-iris-v2.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 4 (conf-imx8qxp-colibri-aster.dtb)
+  Description:  0 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8qxp-colibri-aster.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 5 (conf-imx8qxp-colibri-eval-v3.dtb)
+  Description:  0 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8qxp-colibri-eval-v3.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 6 (conf-imx8qxp-colibri-iris.dtb)
+  Description:  0 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8qxp-colibri-iris.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 7 (conf-imx8qxp-colibri-iris-v2.dtb)
+  Description:  0 Linux kernel, FDT blob, ramdisk
+  Kernel:       kernel-1
+  Init Ramdisk: ramdisk-1
+  FDT:          fdt-imx8qxp-colibri-iris-v2.dtb
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 8 (conf-colibri-imx8x_ad7879_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_ad7879_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 9 (conf-colibri-imx8x_atmel-mxt-adapter_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_atmel-mxt-adapter_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 10 (conf-colibri-imx8x_atmel-mxt-connector_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_atmel-mxt-connector_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 11 (conf-colibri-imx8x_disable-cm40-uart_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_disable-cm40-uart_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 12 (conf-colibri-imx8x_display-lcdif_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_display-lcdif_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 13 (conf-colibri-imx8x_dsihdmi_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_dsihdmi_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 14 (conf-colibri-imx8x-eval_spidev_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x-eval_spidev_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 15 (conf-colibri-imx8x_ov5640_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_ov5640_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 16 (conf-colibri-imx8x_parallel-rgb-lvds_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_parallel-rgb-lvds_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 17 (conf-colibri-imx8x_parallel-rgb_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-colibri-imx8x_parallel-rgb_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 18 (conf-display-dpi-lt170410_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-display-dpi-lt170410_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 19 (conf-display-edt5.7_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-display-edt5.7_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 20 (conf-display-edt7_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-display-edt7_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 21 (conf-display-fullhd_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-display-fullhd_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 22 (conf-display-lt161010_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-display-lt161010_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 23 (conf-display-lt170410_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-display-lt170410_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 24 (conf-display-vga_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-display-vga_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
+ Configuration 25 (conf-touch-atmel-mxt_overlay.dtbo)
+  Description:  0 FDT blob
+  Kernel:       unavailable
+  FDT:          fdt-touch-atmel-mxt_overlay.dtbo
+  Hash algo:    sha256
+  Hash value:   unavailable
